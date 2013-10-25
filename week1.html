@@ -1,9 +1,14 @@
 <html>
     <head>
         <title>Anne's awesome week 1 page</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="week1.js"></script>
     </head>
     <body>
-    <span style="color:red;font-size:60px;">Yo</span>
-    <p><button onclick="console.log('I got clicked')">Calculate!</button></p>
+    <p><b>Yo</b></p>
+    <p><input type="text" size="50" id="expression" /></p>
+    <p><button onclick="calculate()">Calculate!</button></p>
+    
+    <div id="output"></div>
     </body>
 </html>
